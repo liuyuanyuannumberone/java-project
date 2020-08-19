@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE books SYSTEM "bookshelf.dtd">-->
+<books xmlns="name"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema‐instance"
+       xsi:schemaLocation="name bookshelf.xsd">
+    <book id="0001">
+        <name id="11">JavaWeb开发教程</name>
+        <author>张孝祥</author>
+        <sale>100.00元</sale>
+    </book>
+    <book id="0002">
+        <name id="12">三国演义</name>
+        <author>罗贯中</author>
+        <sale>100.00元</sale>
+    </book>
+</books>

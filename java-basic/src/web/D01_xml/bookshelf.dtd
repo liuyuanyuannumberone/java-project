@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT books (book+)>          <!--books有且至少有一个book子元素-->
+<!ELEMENT book (name,author,sale)>    <!--约束元素book的子元素为name,author,sale且必须按顺序-->
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT sale (#PCDATA)>
